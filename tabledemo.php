@@ -7,28 +7,29 @@
     <title>Document</title>
     <style>
         table{
-            border: 1px solid #000;
             width: 90%;
             border-collapse: collapse;
         }
     </style>
 </head>
 <body>
-    <table>
+    <table border="1">
         <tr>
             <th>姓名</th>
             <th>年齡</th>
             <th>學校</th>
         </tr>
         <?php
-            for($i = 0; $i <= 10; $i ++){
+            for($i = 0; $i <= 10; $i++){
         ?>
-        <tr>
-            <td>阿剛</td>
-            <td>30</td>
-            <td>台東大學</td>
-        </tr>
-        <?php}?>
+            <tr>
+                <td>阿剛</td>
+                <td>30</td>
+                <td>台東大學</td>
+            </tr>
+        <?php
+            }
+        ?>
     </table>
 </body>
 </html>
