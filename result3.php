@@ -8,25 +8,25 @@
         switch($sex){
             case 'F':
                 echo $user . "妳好！！！<br>";
-                echo "送你一頂小花帽帽！！！<br>";
+                echo "我是女生<br>";
                 break;
             case 'M':
                 echo $user . "你好！！！<br>";
-                echo "送你一件Ｔ Shirt<br>";
+                echo "我是男生<br>";
                 break;
             case 'No':
                 echo $user . "好！！！<br>";
-                echo "送你一個熱氣球小禮物";
+                echo "我的性別要你管？";
                 break;
         }
         if($edu == "高中"){
-            echo "可以再進修大學<br>";
+            echo "我是高中生<br>";
         }else if($edu == "大學"){
-            echo "這個稱為學士";
+            echo "我是大學生";
         }else if($edu == "碩士"){
-            echo "聽說最近論文很火<br>";
+            echo "我是碩士<br>";
         }else{
-            echo "超厲害喔！！！<br>";
+            echo "我是博士<br>";
         }
     }
 ?>
